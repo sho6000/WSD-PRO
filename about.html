@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="24.png" type="image/png">
+    <style>
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+        .about-section-padding {
+            padding: 60px 0;
+            position: relative;
+        }
+        .about-img {
+            overflow: hidden;
+        }
+        .about-img img {
+            width: 100%;
+            height: auto;
+            animation: fadeInImage 2s ease-in-out;
+        }
+        @keyframes fadeInImage {
+            0% {
+                opacity: 0;
+                transform: translateY(-50%);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .about-text {
+            margin-top: 20px;
+            position: relative;
+            color: white;
+            text-align: center;
+            animation: fadeInText 3s ease-in-out;
+        }
+        .about-text-content {
+            background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black background */
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block; /* shrink to fit content */
+        }
+        @keyframes fadeInText {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="24.png" alt="Logo" width="25" height="25" class="d-inline-block align-top"><span class="text-warning"><b>ford</b></span>University</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="student.html">Alumni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" class="about-section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="about-img">
+                        <img src="b_AllSoulsquad.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="about-text">
+                        <div class="about-text-content">
+                            <h2>We provide best quality <b>education</b><br>Oxford is an independent and self-governing institution consisting of the University, its divisions, departments and faculties, and the colleges.</h2>
+                            <p>The 36 colleges and three societies are a core element of the University, to which they are related via a federal system.
+
+                                Each college is independent and self-governing, having a charter approved by the Privy Council, under which it is governed by a Head of House, elected and appointed by the governing body directly. The governing body comprises a number of Fellows, most of whom also hold University posts.
+                                
+                                The three societies – Kellogg College, Reuben College and St Cross College – operate very much like the other colleges but are considered departments of the University rather than independent colleges because, unlike the others, they do not have a royal charter. One of the main differences is that the governing body recommends a president, who is then appointed by Council.
+                                
+                                There are also four permanent private halls, which were founded by different Christian denominations, and still retain their religious character today.
+                                
+                                Undergraduates are admitted to 32 of the colleges and permanent private halls. All colleges accept applications from mature students, while Harris Manchester College is solely for mature students.
+                                
+                                Campion Hall and Green Templeton, Kellogg, Linacre, Nuffield, Reuben, St Antony’s, St Cross and Wolfson Colleges admit only postgraduate students. All Souls is unique among Oxford colleges because it has no student members; all are Fellows, except the Warden.
+                                University, Balliol, and Merton Colleges are the oldest and were established by the 13th century.
+                                
+                                Green Templeton, which came into existence in 2008 following the merger of Green and Templeton Colleges, is the University’s newest college, and Reuben College, which was founded by the University in 2019, is the newest society.
+                                
+                                If you are interested in undergraduate study at Oxford, please consult our information on colleges for prospective undergraduates.
+                            </p>
+                            <a href="#" class="btn btn-warning">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Ford University. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

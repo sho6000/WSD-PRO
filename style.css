@@ -125,3 +125,112 @@ height: 100vh;
         font-size: 12px;
     }
 }
+
+
+/* principle's note */
+
+/* Custom styles for Principal's Note */
+.note-box {
+    border: 2px solid #dee2e6; /* Light border for the box */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #ffffff; /* White background */
+    padding: 2rem; /* Padding inside the box */
+}
+
+.note-box h2 {
+    color: #343a40; /* Darker color for the heading */
+}
+
+.note-box .principal-info {
+    border-bottom: 2px solid #dee2e6; /* Bottom border for the info section */
+    padding-bottom: 1rem; /* Padding at the bottom */
+    margin-bottom: 1rem; /* Margin at the bottom */
+}
+
+.note-box .principal-note-text {
+    line-height: 1.6; /* Improved readability with line spacing */
+    color: #495057; /* Slightly darker text color for better contrast */
+}
+
+
+
+
+
+
+
+
+/* Custom styles for Footer */
+.footer {
+    background-color: #343a40; /* Dark background for footer */
+    color: #f8f9fa; /* Light text color */
+}
+
+.footer h5 {
+    color: #f8f9fa; /* Light color for headings */
+}
+
+.footer address {
+    font-style: normal; /* Remove italics for address */
+}
+
+.footer a {
+    color: #f8f9fa; /* Light color for links */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+.footer .logo {
+    width: 24px; /* Set a consistent width for social media icons */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Ensure map takes full width */
+.embed-responsive-16by9 {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    border-radius: 0.5rem; /* Optional: rounded corners for the map */
+}
+
+.embed-responsive-16by9 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+/*  */
+.navbar {
+    background-color: #f8f9fa; /* Light background for the navbar */
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand .logo {
+    width: 50px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    transform: scale(1.3); /* Scale the image */
+    transform-origin: 0; /* Ensure scaling from the top-left corner */
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link i {
+    margin-right: 5px; /* Space between icon and text */
+}

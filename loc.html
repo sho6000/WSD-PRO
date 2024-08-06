@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Location</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+        .nav-button {
+            padding: 10px 20px;
+            background-color: #4285f4;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Our Company Location</h1>
+    <div id="map"></div>
+    <h2>Navigate to Google Maps</h2>
+    <button class="nav-button" onclick="navigateToGoogleMaps()">Navigate to Google Maps</button>
+  
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        // Replace with your company's coordinates
+        var companyLat =  12.935100741688618;
+        var companyLon = 77.61177809416125;
+
+       
+        
+        var map = L.map('map').setView([companyLat, companyLon], 13);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        var marker = L.marker([companyLat, companyLon]).addTo(map)
+            .bindPopup('Latitude: ' + companyLat + '<br>Longitude: ' + companyLon)
+            .openPopup();
+
+        function navigateToGoogleMaps() {
+            window.open(https://www.google.com/maps?q=${companyLat},${companyLon}, '_blank');
+        }
+    </script>
+</body>
+</html>

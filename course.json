@@ -2,31 +2,31 @@
     "courses": [
       {
         "name": "Introduction to Computer Science (CS50)",
-        "url": "https://cs50.harvard.edu/x/2024/images/cs50x.webp"
+        "url": "https://img-c.udemycdn.com/course/480x270/5419300_af6e_3.jpg"
       },
       {
         "name": "Data Structures and Algorithms",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Data_Structure_Algorithms.jpg/800px-Data_Structure_Algorithms.jpg"
+        "url": "https://img-c.udemycdn.com/course/480x270/5846426_4bba.jpg"
       },
       {
         "name": "Machine Learning by Stanford University",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Stanford_University_seal_2003.svg/1200px-Stanford_University_seal_2003.svg.png"
+        "url": "https://img-c.udemycdn.com/course/480x270/6047219_a1d9_2.jpg"
       },
       {
         "name": "Web Development Bootcamp",
-        "url": "https://d33wubrfki0l68.cloudfront.net/51a96fdc77cd813bcfba9c289bdf7333eb74a9ef/4fd2c/images/frontend-web-development-certification.svg"
+        "url": "https://img-c.udemycdn.com/course/480x270/6146951_9f2f_7.jpg"
       },
       {
         "name": "Artificial Intelligence for Everyone",
-        "url": "https://cdn.jsdelivr.net/gh/Azure-Student-Community/az-learn-pics/AI.jpg"
+        "url": "https://img-c.udemycdn.com/course/480x270/6075033_a15b.jpg"
       },
       {
         "name": "Deep Learning Specialization",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Deep_learning_class_neural_network.svg/1024px-Deep_learning_class_neural_network.svg.png"
+        "url": "https://img-c.udemycdn.com/course/480x270/6121505_fbb5.jpg"
       },
       {
         "name": "Cybersecurity Essentials",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Cybersecurity_Fundamentals.png"
+        "url": "https://img-c.udemycdn.com/course/480x270/6169679_0ed2_5.jpg"
       },
       {
         "name": "Operating Systems and You",
